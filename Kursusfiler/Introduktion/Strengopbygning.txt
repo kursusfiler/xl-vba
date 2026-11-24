@@ -1,0 +1,21 @@
+
+Msgbox "Her er så en meget lang tekst, som kun er skrevet for at være for lang",, _
+	"Demo af linjefortsættelsestegnet"
+
+====================================================================================
+
+strMessage = "Hej " & Application.UserName
+strMessage = strMessage & vbNewLine & vbNewLine
+strMessage = strMessage & "Jeg håber du glæder dig til at komme i gang!"
+strMessage = strMessage & vbNewLine & vbNewLine
+strMessage = strMessage & "Med venlig hilsen"
+strMessage = strMessage & vbNewLine
+strMessage = strMessage & Application.Name    
+MsgBox strMessage, vbInformation
+
+====================================================================================
+
+MsgBox "Hej " & Application.UserName & vbNewLine & vbNewLine & _
+	"Jeg håber du glæder dig til at komme i gang!" & vbNewLine & _
+	vbNewLine & "Med venlig hilsen" & vbNewLine & Application.Name, _
+	vbInformation
