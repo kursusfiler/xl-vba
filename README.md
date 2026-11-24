@@ -11,7 +11,7 @@ Du behøver ikke at kende GitHub for at hente filerne:
 
 1. Klik på den grønne knap **Code** øverst på siden
 2. Vælg **Download ZIP**
-3. Gem zip-filen og pak den ud, fx i mappen `C:\Kursusfiler\BI-kurser\`
+3. Gem zip-filen og pak den ud, fx i mappen `C:\Kursusfiler\VBA\`
 
 > **Tip:** Pak filerne ud, før du åbner dem. Hvis du åbner dem direkte inde i zip-filen,
 > kan de ikke gemmes, og forespørgsler i Power Query kan ikke finde deres datakilder.
